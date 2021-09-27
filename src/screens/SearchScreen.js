@@ -20,7 +20,7 @@ const SearchScreen = () => {
             });
             setResults(response.data.businesses);
         } catch(err) {
-            setErrorMessage('Something broke');
+            setErrorMessage('Something broke!');
         }
     };
 
